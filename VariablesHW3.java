@@ -11,6 +11,6 @@ public class VariablesHW3{
         ?"Cool"
         : sum == 0 && sum > 20 
         ? "Not cool"
-        : " Cool"  );
+        : " Cool");
     }
 }
