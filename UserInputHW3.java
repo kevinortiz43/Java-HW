@@ -5,20 +5,20 @@ class UserInputHW3{
 
         Scanner scan = new Scanner (System.in);
     
-       System.out.println("Enter a number  to be armstronged");
+       System.out.println("Enter a number to Check if its an  armstrong number");
         int number = scan.nextInt();
         int temporary = number;
         int remainder = 0;
-        int summation = 0;
+        int sum = 0;
 
         while (number > 0){
 
             remainder = number % 10;
-            summation =summation+(remainder*remainder*remainder);
+            sum =sum+(remainder*remainder*remainder);
             number=number/10;
 
         }   
-        if(temporary ==  summation){
+        if(temporary ==  sum){
             System.out.println("Armstrong");
         }
         else{
